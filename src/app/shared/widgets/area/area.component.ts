@@ -58,7 +58,7 @@ export class AreaComponent implements OnInit {
         }
       },
       tooltip: {
-        pointFormat: '{series.name} had stockpiled <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
+        pointFormat: '{series.name} tem estocado <b>{point.y:,.0f}</b><br/>ogivas em {point.x}'
       },
       plotOptions: {
         area: {
